@@ -25,8 +25,8 @@ class Generator
     private $returnText = true;
     // Size of QR. Default 300px
     private $size = 300;
-    // Size of margin. Default 10 px.
-    private $margin = 10;
+    // Size of margin. Default 0 px.
+    private $margin = 0;
     // Logo path
     private $logoPath;
     // Logo width in px

@@ -1,5 +1,5 @@
 {
-    "name": "tttran/viet_qr_generator",
+    "name": "lukethd/viet_qr_generator",
     "description": "VietQR generator by following vietqr specification",
     "type": "library",
     "license": "MIT",
