@@ -6,7 +6,7 @@ Extension to generate Text according to VietQR Specification via account.
 ```json
 {
   "require":{
-    "tttran/viet_qr_generator": "v0.6"
+    "lukethd/viet_qr_generator": "v0.6"
   }
 }
 
