@@ -3,6 +3,7 @@
 namespace tttran\viet_qr_generator;
 
 use Endroid\QrCode\Builder\Builder;
+use Endroid\QrCode\Color\Color;
 use Endroid\QrCode\Encoding\Encoding;
 use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
 use Endroid\QrCode\Label\Alignment\LabelAlignmentCenter;
@@ -192,6 +193,7 @@ class Generator
             ->errorCorrectionLevel(new ErrorCorrectionLevelHigh())
             ->size($this->size)
             ->margin($this->margin)
+            ->backgroundColor(new Color(255, 255, 255, 127))
             ->roundBlockSizeMode(new RoundBlockSizeModeMargin());
 
         foreach (($this->labels ?? []) as $label) {
